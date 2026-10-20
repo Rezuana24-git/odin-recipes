@@ -1,0 +1,138 @@
+:root {
+  --primary: #c8472f;     
+  --primary-dark: #9e3420;  
+  --accent: #e8a33d;       
+  --bg: #fff8ee;           
+  --surface: #ffffff;      
+  --text: #2d2118;         
+  --text-muted: #6b5a4c;   
+  --border: #ead9c3;       
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 3rem;
+}
+
+.recipe {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.recipe li {
+  margin-bottom: 16px;
+}
+
+.recipe a {
+  display: block;
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 12px 20px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.recipe a:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.section a {
+  display: inline-block;
+  font-size: 1.25rem;
+  color: var(--primary);
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.section a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.section h1 {
+  font-size: 2.8rem;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.section h2 {
+  color: var(--primary-dark);
+  text-align: center;
+  margin: 20px 0 10px;
+  font-size: 1.6rem;
+}
+
+.section h3 {
+  color: var(--primary);
+  margin: 30px 0 12px;
+  font-size: 1.35rem;
+  padding-left: 0;         
+}
+
+.section img {
+  display: block;
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 4px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.section p {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.section ul,
+.section ol {
+  margin-left: 1.5rem;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.section li {
+  margin-bottom: 8px;
+  padding-left: 4px;
+}
+
+.section ul li::marker {
+  color: var(--primary);
+}
+
+.section ol li::marker {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
