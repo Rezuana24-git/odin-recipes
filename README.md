@@ -1,6 +1,6 @@
 # Odin Recipes
 
-A multi-page recipe website built with HTML as part of The Odin Project's Foundations course.
+A multi-page recipe website built with HTML and CSS as part of The Odin Project's Foundations course.
 
 ## Live Demo
 [View the site](https://rezuana24-git.github.io/odin-recipes/)
@@ -13,7 +13,7 @@ A multi-page recipe website built with HTML as part of The Odin Project's Founda
 - Css style added in all recipe pages and home page
 
 ## Built With
-- HTML5
+- HTML5, CSS
 
 ## What I Learned
 - Structuring pages with headings, paragraphs, lists, images, and links
